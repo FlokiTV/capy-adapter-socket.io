@@ -1,4 +1,4 @@
-import { $Client } from "capy-js/src/adapters";
+import { $Client } from "capy-js/src/adapters.js";
 import { io } from "socket.io-client";
 
 class Client extends $Client {
